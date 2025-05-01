@@ -1,0 +1,1 @@
+export const TITLE_PAGE = "Kanban Dashboard"

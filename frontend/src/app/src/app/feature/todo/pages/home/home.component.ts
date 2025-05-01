@@ -1,4 +1,5 @@
 import { Component } from '@angular/core'
+import { TITLE_PAGE } from '../../../../../../shared/const/title.const'
 
 @Component({
   selector: 'app-home',
@@ -6,4 +7,6 @@ import { Component } from '@angular/core'
   imports: [],
   templateUrl: './home.component.html',
 })
-export class HomeComponent {}
+export class HomeComponent {
+   public readonly title = TITLE_PAGE
+}
