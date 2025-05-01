@@ -1,0 +1,42 @@
+<div
+  class="flex flex-col justify-between w-1/5 h-full px-4 py-8 border-r-2 border-[#E2E8F0]"
+>
+  <div>
+    <img src="../../../../assets/Logo.svg" alt="" class="max-h-44 max-w-44" />
+
+    <div
+      class="w-11/12 mt-3 flex items-center gap-2 border border-[#475569] rounded-2xl px-2.5 py-1"
+    >
+      <img src="../../../../assets/Search.svg" alt="" />
+      <input
+        type="text"
+        placeholder="Search..."
+        class="w-full focus:outline-none"
+      />
+    </div>
+
+    <div class="mt-7 ml-2 flex flex-col gap-3">
+      @for (item of SIDEBAR_ITENS; track item.title) {
+        <div class="">
+          <h2 class="text-[#1E293B] font-bold text-lg">{{ item.title }}</h2>
+        </div>
+      }
+    </div>
+  </div>
+
+  <div>
+    <hr />
+    <div class="flex items-center mt-6 justify-between">
+      <div class="flex items-center gap-3">
+        <img src="../../../../assets/Avatar.svg" alt="" />
+
+        <div class="flex flex-col items-start">
+          <h2 class="text-[#1E293B] font-bold">Gustavo Kobielski</h2>
+          <p class="text-[#475569] text-sm">Basic Member</p>
+        </div>
+      </div>
+
+      <img src="../../../../assets/Leave.svg" alt="" />
+    </div>
+  </div>
+</div>
