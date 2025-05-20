@@ -1,5 +1,5 @@
 import { Component } from '@angular/core'
-import { SIDEBAR_ITEMS } from '../../const/sidebar.const'
+import { SIDEBAR_ITEMS } from './const/sidebar.const'
 
 @Component({
   selector: 'app-sidebar',
