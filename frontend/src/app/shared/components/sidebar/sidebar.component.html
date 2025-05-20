@@ -17,7 +17,10 @@
 
     <div class="mt-7 ml-2 flex flex-col gap-3">
       @for (item of SIDEBAR_ITENS; track item.title) {
-        <div>
+        <div class="flex items-center gap-2 py-3">
+          <span class="material-icons text-[#94A3B8]">
+            {{ item.icon }}
+          </span>
           <a class="text-[#1E293B] font-bold text-lg" href="{{ item.route }}">{{
             item.title
           }}</a>
