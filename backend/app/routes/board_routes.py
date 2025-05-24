@@ -1,6 +1,6 @@
 from fastapi import APIRouter
 from app.config.database import connect
-from app.models.board import Board
+from app.models.board_models import Board
 
 board_router = APIRouter()
 

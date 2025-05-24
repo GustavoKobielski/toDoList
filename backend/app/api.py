@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from app.routes.boardR import board_router
+from app.routes.board_routes import board_router
 
 app = FastAPI()
 
