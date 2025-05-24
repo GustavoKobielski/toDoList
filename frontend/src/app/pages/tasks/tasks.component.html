@@ -1,7 +1,7 @@
-<div class="py-6 px-7">
+<div class="h-full flex flex-col">
   <app-page-header (viewMode)="onViewModeChange($event)"></app-page-header>
 
-  <div>
+  <div class="flex-1 h-full">
     <div *ngIf="viewMode === 'list'">
       <app-list-view></app-list-view>
     </div>
